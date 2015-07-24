@@ -24,7 +24,7 @@ public class MainActivity extends Activity implements OnScrollChangeListener {
 		setContentView(R.layout.activity_main);
 		webview = (ScrollWebView) this.findViewById(R.id.webview);
 		lly_title = (LinearLayout) this.findViewById(R.id.lly_title);
-		webview.loadUrl("http://blog.csdn.net/u010032372/article/details/45505093");
+		webview.loadUrl("http://www.tudou.com");
 		webview.setListener(this);
 	}
 
